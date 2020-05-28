@@ -1,0 +1,2 @@
+make defconfig   把仅含有定制信息的、不完整的.config文件，转换成完整的.config文件。
+./scripts/diffconfig.sh > diff.config    把完整的.config文件，转换成仅含有定制信息的、不完整的diff.config文件。
